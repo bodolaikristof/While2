@@ -1,0 +1,7 @@
+szam =int(input("adj meg egy páros számot: "))
+
+while szam % 2 != 0:
+    print("ez a szám páratlan, próbáld újra!")
+    szam =int(input("adj meg egy páros számot: " ))
+    
+print ("köszönöm! Páros számot adtál meg:",szam)
