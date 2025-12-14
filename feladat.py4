@@ -1,6 +1,0 @@
-szoveg = input("alma")
-darab = int(input(3))
-
-for i in range(darab):
-    print(szoveg)
-    
