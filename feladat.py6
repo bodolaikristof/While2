@@ -1,0 +1,15 @@
+import random
+
+db = 0
+
+harommal = 0
+
+while db < 20:
+    szam = random.randint(1, 12)
+    
+    if szam % 3 == 0:
+        print(szam)
+        harommal += 1
+        
+    db += 1
+print("a 3-mal oszthato szamok szama:",harommal)
